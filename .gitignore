@@ -2,3 +2,4 @@
 *.xml
 WebApp/.DS_Store
 WebApp/labelit/.DS_Store
+*.pyc
