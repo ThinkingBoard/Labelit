@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 class Project(models.Model):
 
     user = models.ForeignKey(
-        User, on_delete=models.CASCADE)
+       User, on_delete=models.CASCADE)
 
     project_name = models.CharField(max_length=200)
 
