@@ -4,3 +4,8 @@ WebApp/.DS_Store
 WebApp/labelit/.DS_Store
 *.pyc
 *.iml
+.DS_Store
+WebApp/credentials.txt
+*.sqlite3
+WebApp/labelit/db.sqlite3
+WebApp/labelit/db.sqlite3
