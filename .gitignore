@@ -6,3 +6,6 @@ WebApp/labelit/.DS_Store
 *.iml
 .DS_Store
 WebApp/credentials.txt
+*.sqlite3
+WebApp/labelit/db.sqlite3
+WebApp/labelit/db.sqlite3
