@@ -7,9 +7,9 @@ class Project(models.Model):
     user = models.ForeignKey(
        User, on_delete=models.CASCADE)
 
-    project_name = models.CharField(max_length=200)
+    name = models.CharField(max_length=200)
 
-    project_description = models.CharField(max_length=2000)
+    description = models.CharField(max_length=2000)
 
     pub_date = models.DateTimeField('date published')
 
@@ -19,4 +19,4 @@ class Project(models.Model):
     class_labels_values = models.CharField(max_length=2000)
 
     def __str__(self):
-        return self.project_name
+        return self.name
